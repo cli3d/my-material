@@ -1,0 +1,95 @@
+.outlayer1 {
+    margin: auto;
+    width: 80%;
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.outlayer2 {
+    margin: auto;
+    width: 60%;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.example-card {
+    position: relative;
+    width:initial;
+    border-radius: 5px;
+    margin-top: 0px;
+    color: black;
+    border-color: aliceblue;
+  
+    background: rgba(255,255,255,.9);
+  }
+
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+.container0{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 5px;
+    height:auto;
+    border:1px solid red;
+}
+ 
+
+.container{
+    padding: 10px;
+    margin-bottom: 5px;
+    height:auto;
+    border:1px solid red;
+}
+ 
+.flex-container{
+    height: unset;
+}  
+   
+
+.child-1{
+    border-radius: 5px;
+    background-color: orange;
+    }
+.child-2{
+    border-radius: 5px;
+    background-color: yellow;
+    }
+.child-3{
+        border-radius: 5px;
+        background-color: green;
+    }
+    
+.child-4{
+    border-radius: 5px;
+    background-color: blue;
+}
+    
+.child-5{
+    border-radius: 5px;
+    background-color: pink;
+}
+.child-6{
+    border-radius: 5px;
+    background-color: red;
+}
+.child-7{
+    border-radius: 5px;
+    background-color: maroon;
+}
+.child-8{
+    border-radius: 5px;
+    background-color: blue;
+}
+.example-card {
+    /* max-width: 400px; */
+    color: seagreen;
+  }
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }  
