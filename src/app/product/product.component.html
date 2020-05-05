@@ -1,1 +1,9 @@
-<p>product works!</p>
+<div class="cdk-virtual-scroll-data-source-example">
+    <cdk-virtual-scroll-viewport orientation="horizontal" itemSize="200" class="example-viewport">
+        <mat-card *cdkVirtualFor="let item of items">
+            <mat-card-title>{{item.name}}</mat-card-title>
+            <img mat-card-image [src]="item.image" [alt]="item.name">
+            <mat-card-content>League {{item.league}}</mat-card-content>
+        </mat-card>
+    </cdk-virtual-scroll-viewport>
+</div>

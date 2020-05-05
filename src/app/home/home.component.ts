@@ -39,6 +39,7 @@ export class HomeComponent implements OnInit {
 
   ImageClick() {
     this.router.navigate(['/product'], { relativeTo: this.route });
+    // this.router.navigate(['/teams'], { relativeTo: this.route });
   }
 
 }

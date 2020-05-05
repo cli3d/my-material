@@ -1,0 +1,36 @@
+.cdk-virtual-scroll-data-source-example .example-viewport {
+  height: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+  
+  .cdk-virtual-scroll-data-source-example .example-viewport .cdk-virtual-scroll-content-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+cdk-virtual-scroll-viewport::-webkit-scrollbar {
+    width: 0px;
+}
+/* cdk-virtual-scroll-viewport {
+  -ms-overflow-style: none; 
+  -moz-scrollbar-width: none; 
+  scrollbar-width: none; 
+  overflow: -moz-scrollbars-none; 
+} */
+
+
+  mat-card {
+    height: 200px;
+    margin: 2em;
+    background-color: #1B264F;
+    color: white;
+  }
+  
+  img {
+    width: 20%;
+    padding-left: 1em;
+  }
